@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/main.css">
+    
+    </head>
+    <body>
+    <p>Please enter a new Artist</p>
+    New Artist: <input type="text" id="NewArtist"> <button onclick="AddArtist()">Enter</button>
+    <br></br>
+    <p>Please enter an Artist to Edit</p>
+    Artist: <input type="text" id="OldArtist"> <button onclick="EditArtist()">Edit</button>
+    <br></br>
+    <p>Please enter an Artist that you would like to delete</p>
+    Artist: <input type="text" id="DeleteArtist"> <button onclick="DeleteArtist()">Delete</button>
+    <br></br>
+    <p id="ListofArtists"></p>
+    <button onclick="ListArtist()">List of Artists</button>
+    <br></br>
+    <p id="sortlist"></p>
+    <button onclick="SortList()">Sort List</button>
+
+<script> 
+function AddArtist() {
+  document.getElementById("NewArtist").innerHTML;
+}
+function EditArtist() {
+  document.getElementById("OldArtist").innerHTML;
+}
+function DeleteArtist() {
+  document.getElementById("DeleteArtist").innerHTML;
+}
+function SortList() {
+  document.getElementById("sortlist").innerHTML;
+}
+function ListArtist() {
+  document.getElementById("ListofArtists").innerHTML;
+}
+
+    </script>
+    </body>
+    <div></div>
+</html>
